@@ -1,0 +1,45 @@
+Módulo Lógica Programação - Exercícios 1 (Conceitos Básicos)
+
+Para o exercício a seguir, crie um arquivo de texto e responda por ele mesmo.
+
+1. Indique qual o tipo dos seguintes dados (Inteiro, Decimal, String ou Booleano): 
+-456 = Inteiro
+false = Booleano
+“0.87” = String
+1.67 = Decimal
+“Casa 8” = String
+0 = Inteiro
+1000 = Inteiro
+true = Booleano
+“-900” = String 
+3 = Inteiro
+0.0 = Decimal
+-3.1415 = Decimal 
+32150 = Inteiro
+128288 = Inteiro
+“false” = String
+
+Para os exercícios a seguir, utilize o comando readline() para receber entradas pelo terminal, da seguinte forma:
+
+$variavel = readline();
+Para executar arquivos php, abra um terminal na pasta em que os arquivos estão e digite:
+
+php nomedoarquivo.php
+
+2. Escreva um algoritmo para os problemas a seguir:
+Dados dois números inteiros (dividendo e divisor), apresentar o quociente e o resto.
+A partir de quatro números que serão fornecidos, calcular a média ponderada, considerando os pesos 1, 2, 3 e 4 respectivamente.
+Calcular o valor de um produto que sofreu reajuste de 1% (Aumento).
+Sabendo-se que 100 quilowatts de energia custa um sétimo do salário mínimo, fazer um algoritmo que receba o valor do salário mínimo e a quantidade de quilowatts gasta por uma residência. Calcular: o valor em reais de cada quilowatt, o valor em reais a ser pago e o valor a ser pago com desconto de 10%.
+Dadas a base e a altura de um retângulo, calcular o perímetro, a área e a diagonal.
+Calcular a área de um triângulo (dadas a base e a altura).
+Calcular a área de um losango (dadas as diagonais maior e menor).
+Excluído
+Uma revendedora de carros usados paga a seus vendedores um salário fixo mensal, além de uma comissão fixa por cada carro vendido e mais 5% do valor total das vendas realizadas pelo vendedor. Escreva um algoritmo que receba como entrada o número de carros vendidos pelo vendedor, o valor total das vendas, o salário fixo mensal e o valor da comissão por carro vendido. O algoritmo deve calcular e exibir o salário final do vendedor, que é a soma do salário fixo, da comissão por carro vendido, e 5% do valor total das vendas.
+       —---------------- DESAFIOS OPCIONAIS —---------------
+Dada a hora, calcular quantos minutos se passaram desde o início do dia.
+Dado um número de três dígitos no formato CDU, mostre como resultado a sua inversão (formato UDC) (por exemplo, para 123, o resultado será 321).
+Dado um número de conta corrente com três dígitos, calcular seu dígito verificador, da seguinte forma:
+Somar o número da conta pelo seu inverso (igual ao exercício k);
+Multiplicar cada dígito da soma pela sua ordem posicional e somar estes resultados (primeiro * 1, segundo * 2, terceiro * 3, etc );
+O último dígito desse resultado é o dígito verificador da conta. 
