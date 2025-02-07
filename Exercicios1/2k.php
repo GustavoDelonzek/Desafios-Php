@@ -1,12 +1,9 @@
 <?php
     //Dado um número de três dígitos no formato CDU, mostre como resultado a sua inversão (formato UDC) (por exemplo, para 123, o resultado será 321).
-    $numero = readline();
+    $numero = readline("Digite um número: ");
 
-    $numeroDeCaracter = strlen($numero);
+    echo "A inversão deste número é " . strrev($numero);
 
-    for ($i = $numeroDeCaracter; $i > 0; $i--){
-        
-    }
 
 
 
