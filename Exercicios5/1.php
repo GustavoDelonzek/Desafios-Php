@@ -14,17 +14,42 @@
 
     function divisao($a, $b){
         if($b <= 0){
-            echo "ERRO, DIVISÃO INVÁLIDA";
+            echo "ERRO, DIVISÃO INVÁLIDA, divisor deve ser maior que 0!\n";
         } else{
             return $a / $b;
 
         }
     }
 
-    echo "Testando as operações\nSoma: 3 + 3 = " . soma(3,3) . "\nSubtração: 3 - 3 = " . subtracao(3,3) . "\nMultiplicação: 3 x 3 = " . multiplicacao(3,3) . "\nDivisão: 3 / 3 = " . divisao(3,3) . "\n";
 
+    echo "Escolha a operação\n[1]Soma\n[2]Subtração\n[3]Divisão\n[4]Multiplcação\n";
+    $escolha = readline("Escolha: ");
+    $primeiroValor = readline("Primeiro valor: ");
+    $segundoValor = readline("Segundo valor: ");
     
-
+    switch ($escolha):
+        case 1:
+            echo "O valor da soma é: " . soma($primeiroValor, $segundoValor);
+            break;
+        case 2:
+            echo "O valor da subtração é: " . subtracao($primeiroValor, $segundoValor);
+            break;
+        case 3: 
+            if($segundoValor > 0){
+                echo "O valor da divisao é: " . divisao($primeiroValor, $segundoValor);
+                break;
+            } else{
+                divisao($primeiroValor, $segundoValor);
+                break;
+            }
+           
+        case 4: 
+            echo "O valor da multiplicação é: " . multiplicacao($primeiroValor, $segundoValor);
+            break;
+        default:
+            echo "Opção inválida!!!! Programa encerrado";
+            break;
+        endswitch;
 
 
 ?>
