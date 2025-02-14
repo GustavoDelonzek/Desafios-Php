@@ -6,7 +6,7 @@
     $c = readline();
     $d = readline();
 
-    $media = ($a * 1 + $b * 2 + $c * 3 + $d * 4)/4;
+    $media = ($a * 1 + $b * 2 + $c * 3 + $d * 4)/10;
 
     echo "A média ponderada é $media";
 
