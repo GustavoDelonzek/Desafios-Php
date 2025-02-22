@@ -10,8 +10,8 @@
      }
 
      if($pares){
-         rsort($pares);
-         echo "O maior numero par digitado foi $pares[0]";
+         sort($pares);
+         echo "O menor numero par digitado foi $pares[0]";
      } else {
         echo "Nenhum par foi digitado";
      }
